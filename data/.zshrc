@@ -82,6 +82,9 @@ source $ZSH/oh-my-zsh.sh
 # zsh-completions
 autoload -U compinit && compinit
 
+# 
+export PATH="${KREW_ROOT:-$HOME/.krew}/bin:$PATH"
+
 # User configuration
 
 # export MANPATH="/usr/local/man:$MANPATH"
